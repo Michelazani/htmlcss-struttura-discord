@@ -50,7 +50,7 @@ header{
 }
 
 .second-container{
-
+    
 }
 
 .third-container{
@@ -72,6 +72,41 @@ header{
     width: 50%;
     height: 60%;
     border: 1px dashed black;
+}
+
+.rose-box{
+    height: 75%;
+    width: 25%;
+    background-color: rgb(255, 192, 203);
+    border: 1px dashed black;
+}
+
+.blue-box{
+    height: 75%;
+    width: 45%;
+    background-color: rgb(30, 144, 255);
+    border: 1px dashed black;
+}
+
+.rose-box1{
+    height: 75%;
+    width: 45%;
+    background-color: rgb(255, 192, 203);
+    border: 1px dashed black;
+}
+
+.blue-box1{
+    height: 75%;
+    width: 25%;
+    background-color: rgb(30, 144, 255);
+    border: 1px dashed black;
+}
+
+.bigger-green-box{
+    background-color: rgb(34, 139, 34);
+    width: 70%;
+    height: 80%;
+    border: 1px dashed black;
 
 }
 
@@ -86,7 +121,7 @@ footer{
 
 .bigger-footer{
     height: 400px;
-    width: 70%;
+    width: 100%;
     
 }
 
@@ -94,26 +129,8 @@ footer{
     height: 150px;  
     width: 70%;
 
-
 }
 
-.insidebox{
-    height: 80%;
-    width: 70%;
-}
-
-.box20{
-    height: 80%;
-    width: 20%;
-    background-color: pink;
-
-}
-
-.box80{
-    height: 80%;
-    width: 80%;
-    background-color: red;
-}
 
 
 .green-box{
@@ -126,4 +143,18 @@ div{
     width: 100%;
     background-color: white;
     margin: 2rem 0 1rem;
+}
+
+.salmon-box{
+    height: 85%;
+    width: 20%;
+    background-color: rgb(240, 128, 128);
+    border: 1px dashed black;
+}
+
+.light-green-box{
+    height: 85%;
+    width: 10%;
+    background-color:rgb(32, 178, 170)
+    border: 1px dashed black;
 }
