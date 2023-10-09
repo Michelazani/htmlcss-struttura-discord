@@ -8,6 +8,12 @@
 header{
     background-color: rgb(173, 216, 230);
     height: 80px;
+
+
+}
+
+ul{
+    list-style: none;
 }
 
 /* flex */
@@ -20,11 +26,21 @@ header{
 .dimension{
     height: 50%;
     width: 70%;
-    
+    background-color: rgb(218, 165, 32);
+    border: 3px dashed black;
+
 }
 
-.color{
-    background-color: rgb(218, 165, 32);
+.logo, .login{
+    width: 10%;
+
+}
+
+.list{
+    width: 70%;
+    height: 100%;
+    justify-content: space-evenly;
+ 
 }
 
 
@@ -71,42 +87,42 @@ header{
     background-color: rgb(238, 130, 238);
     width: 50%;
     height: 60%;
-    border: 1px dashed black;
+    border: 3px dashed black;
 }
 
 .rose-box{
     height: 75%;
     width: 25%;
     background-color: rgb(255, 192, 203);
-    border: 1px dashed black;
+    border: 3px dashed black;
 }
 
 .blue-box{
     height: 75%;
     width: 45%;
     background-color: rgb(30, 144, 255);
-    border: 1px dashed black;
+    border: 3px dashed black;
 }
 
 .rose-box1{
     height: 75%;
     width: 45%;
     background-color: rgb(255, 192, 203);
-    border: 1px dashed black;
+    border: 3px dashed black;
 }
 
 .blue-box1{
     height: 75%;
     width: 25%;
     background-color: rgb(30, 144, 255);
-    border: 1px dashed black;
+    border: 3px dashed black;
 }
 
 .bigger-green-box{
     background-color: rgb(34, 139, 34);
     width: 70%;
     height: 80%;
-    border: 1px dashed black;
+    border: 3px dashed black;
 
 }
 
@@ -150,20 +166,20 @@ div{
     height: 90%;
     width: 20%;
     background-color: rgb(240, 128, 128);
-    border: 1px dashed black;
+    border: 3px dashed black;
 }
 
 .light-green-box{
     height: 90%;
     width: 12.5%;
     background-color:rgb(32, 178, 170);
-    border: 1px dashed white;
+    border: 3px dashed white;
 }
 
-.logo, .bottone{
+.logo2, .bottone{
     background-color: rgb(255, 182, 193);
     height: 20px;
     width: 55px;
-    border: 1px dashed black;
+    border: 3px dashed black;
     text-align: center;
 }
