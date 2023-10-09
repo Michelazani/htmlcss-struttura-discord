@@ -33,14 +33,16 @@ ul{
 
 .logo, .login{
     width: 10%;
-
 }
 
+.logo{
+    border-right: 3px dashed black;
+
+}
 .list{
     width: 70%;
     height: 100%;
     justify-content: space-evenly;
-    border: 3px dashed black;
 
 }
 
