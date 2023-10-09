@@ -126,16 +126,17 @@ footer{
 }
 
 .smaller-footer{
-    height: 150px;  
+    height: 50px;  
     width: 70%;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
 
 .green-box{
-    background-color: rgb(127, 255, 212);
-    
+    background-color: rgb(127, 255, 212);    
 }
 
 div{
@@ -146,15 +147,23 @@ div{
 }
 
 .salmon-box{
-    height: 85%;
+    height: 90%;
     width: 20%;
     background-color: rgb(240, 128, 128);
     border: 1px dashed black;
 }
 
 .light-green-box{
-    height: 85%;
-    width: 10%;
-    background-color:rgb(32, 178, 170)
+    height: 90%;
+    width: 12.5%;
+    background-color:rgb(32, 178, 170);
+    border: 1px dashed white;
+}
+
+.logo, .bottone{
+    background-color: rgb(255, 182, 193);
+    height: 20px;
+    width: 55px;
     border: 1px dashed black;
+    text-align: center;
 }
