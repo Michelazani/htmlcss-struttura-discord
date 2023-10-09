@@ -66,6 +66,12 @@ header{
 
 }
 
+/* box interni */
+.pink-box{
+    background-color: rgb(238, 130, 238);
+
+}
+
 /* footer */
 footer{
     background-color: black;
@@ -74,11 +80,14 @@ footer{
 
 .bigger-footer{
     height: 400px;
+    width: 100%;
     border-bottom: 2px solid white;
 }
 
 .smaller-footer{
-    height: 150px;    
+    height: 150px;  
+    width: 70%;
+
 }
 
 .green-box{
