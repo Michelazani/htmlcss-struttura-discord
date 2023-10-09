@@ -75,6 +75,9 @@ header{
 /* footer */
 footer{
     background-color: black;
+    width: 100%;
+    flex-direction: column;
+
     
 }
 
@@ -86,7 +89,6 @@ footer{
 
 .smaller-footer{
     height: 150px;  
-    width: 70%;
 
 }
 
