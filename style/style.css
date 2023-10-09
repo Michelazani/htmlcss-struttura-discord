@@ -8,6 +8,10 @@
 header{
     background-color: rgb(173, 216, 230);
     height: 80px;
+}
+
+/* flex */
+.flex{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,6 +69,7 @@ header{
 /* footer */
 footer{
     background-color: black;
+    
 }
 
 .bigger-footer{
@@ -73,5 +78,10 @@ footer{
 }
 
 .smaller-footer{
-    height: 150px;
+    height: 150px;    
+}
+
+.green-box{
+    background-color: green;
+    
 }
